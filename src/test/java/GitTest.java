@@ -10,4 +10,9 @@ public class GitTest {
     void gitCommitTwo() {
         System.out.println("git commit two");
     }
+    @Test
+    void gitCommitTree() {
+        System.out.println("git commit tree");
+    }
+
 }
