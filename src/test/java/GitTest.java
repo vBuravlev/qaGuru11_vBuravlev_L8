@@ -6,4 +6,8 @@ public class GitTest {
     void gitCommit() {
         System.out.println("git commit one");
     }
+    @Test
+    void gitCommitTwo() {
+        System.out.println("git commit two");
+    }
 }
