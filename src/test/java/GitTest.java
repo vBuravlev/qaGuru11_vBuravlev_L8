@@ -1,5 +1,7 @@
 import org.junit.jupiter.api.Test;
 
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
 public class GitTest {
 
     @Test
@@ -14,5 +16,11 @@ public class GitTest {
     void gitCommitTree() {
         System.out.println("git commit tree");
     }
+
+    @Test
+    void assertTrueTest(){
+        assertTrue(3>2);
+    }
+
 
 }
